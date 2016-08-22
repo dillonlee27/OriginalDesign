@@ -4,7 +4,11 @@ void setup()
 }
 void draw()
 {
-  quad(175,50,225,50,185,65,215,65);
+  background(255,255,255);   	
+  ellipse(200,200,150,150); 	//face
+  ellipse(175,175,20,20);
+  ellipse(225,175,20,20);
+  line()
 }
 
 
