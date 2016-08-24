@@ -14,14 +14,16 @@ void draw()
   fill(0,0,0);
   ellipse(175,175,20,20);			//eyes
   ellipse(225,175,20,20);
-  line(185,180,215,180);
+  line(185,175,215,175);
 
   if(mousePressed == true)
   {
+  	textSize(20);
   	color(55,55,25);
-  	text("How can I be of help today?", 300,300);
+  	text("How can I be of help today?",75,305);
   }
 }
+  
 
 
 
