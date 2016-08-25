@@ -1,9 +1,10 @@
 
 
-
+//boolean text1 = false;
 void setup()
 {
   size(400,400);
+  //noLoop();
 }
 void draw()
 {
@@ -16,13 +17,16 @@ void draw()
   ellipse(225,175,20,20);
   line(185,175,215,175);
 
-  if(mousePressed == true)
+if(mousePressed == true)
   {
+  	//text1 = true;
   	textSize(20);
   	color(55,55,25);
-  	text("How can I be of help today?",75,305);
+  	text("How would you rate your pain?",55,305);
   }
 }
+
+
   
 
 
